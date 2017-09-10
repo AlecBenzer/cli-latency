@@ -1,7 +1,8 @@
 Can you tell the difference between 10ms and 100ms on the command line?
 
 ```shell
-➜  go run cli-latency.go
+$ go get github.com/AlecBenzer/cli-latency
+$ cli-latency
 This is 10ms (Press Enter):
 Start...finish!
 This is 100ms (Press Enter):
